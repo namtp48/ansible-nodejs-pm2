@@ -1,0 +1,28 @@
+# vars/main.yml
+
+# Name of the SSH key (e.g. git_ssh_key)
+KEY_TITLE: nma99test
+
+# Location of the SSH key to be (e.g. ~/.ssh/id_rsa_git)
+KEY_PATH: /home/vagrant/.ssh/gitkey
+
+# # GitHub personal access token
+GITHUB_ACCESS_TOKEN: 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
+
+# Git repository to be cloned. Must be SSH (not https)
+GIT_REPO: git@github.com:nmaaa/servergame.git 
+
+# Branch of the git repository (e.g. master)
+GIT_BRANCH: main
+
+# Directory where the repository will be cloned (e.g. /home/user/repo_name)
+CLONE_DEST: /home/vagrant/repo/
+
+# Location of the SSH known hosts file (e.g. ~/.ssh/known_hosts)
+KNOWN_HOSTS_PATH: /home/vagrant/.ssh/known_hosts
+
+# Location of the git binary (e.g. /usr/bin/git)
+GIT_EXECUTABLE: /usr/bin/git
+
+# Github FQDN
+GIT_SERVER_FQDN: github.com
